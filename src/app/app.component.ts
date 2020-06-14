@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'max-number-of-directives';
+
+  ngAfterViewInit(){
+    console.log('App comp after view init');
+  }
 }
